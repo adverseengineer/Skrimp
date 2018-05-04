@@ -17,7 +17,13 @@ client.on('message', msg =>
         {
             case 'roll':
                 msg.reply(cmds.roll(msg.content));
-                break; 
+                break;
+            case 'rps':
+                msg.reply(cmds.rps(msg.content));
+                break;
+            case 'uptime':
+                msg.reply(cmds.uptime());
+                break;
             default:
                 msg.reply('Unknown command. For help, type "!help"');
                 break;
