@@ -1,7 +1,7 @@
 const cmds = require('./cmds');
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const token = 'NDQxMDI5NzEwMjMxODk2MDc1.Dcu0Uw.Xe5RmOQqu-99TFNbigkcGE4r94Y';
+const token = 'Token?';
 const prefix = '!';
 
 client.on('ready', () =>
